@@ -3,8 +3,12 @@
 
 """
 Ask the user to enter in a number less than 10
-Print out the list element that corresponds to that
-position in the tuple
+Print out the list elment that corresponds to that
+position in the tuplee
 """
 
-people=("John","Tyler","Dash","Kieran","Jayson","Tomoki","Minji","Dawson","Hewitt","Josh","Anson","Cole")
+people = ("John","Tyler","Dash","Kieran","Jayson","Tomoki","Minji","Dawson","Hewitt","Josh","Anson","Cole")
+
+i = int(input("Gimme a number: "))
+
+print(people[i])
